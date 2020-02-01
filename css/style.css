@@ -148,7 +148,6 @@ header {
 .hero {
     background-color: var(--accent-color);
     padding: 70px 0;
-    padding-top: 100px;
 }
 
 .hero__title {
@@ -261,7 +260,7 @@ header {
 }
 
 .contact__list {
-    width: 300px;
+    max-width: 450px;
     margin: auto;
     display: flex;
     flex-direction: column;
